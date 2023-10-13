@@ -3059,7 +3059,7 @@ vertical-align: -.125em;
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;skimr&quot;) #</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;janitor&quot;) #</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;tidymodels&quot;) #</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages(&quot;tidymodels&quot;)#</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>boston_cocktails <span class="ot">&lt;-</span> readr<span class="sc">::</span><span class="fu">read_csv</span>(<span class="st">&#39;data/boston_cocktails.csv&#39;</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
@@ -3322,10 +3322,10 @@ dbl (3): row_id, ingredient_number, measure_number
 <pre><code>[1] 1</code></pre>
 </div>
 </div>
+<p>The median measure amount across all cocktails is 1.</p>
 </section>
 <section id="exercise-2" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-2">Exercise 2</h3>
-<p>The <strong>Leap Frog Highball</strong> contains ___ of gin</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co">#load the libraries #</span></span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
@@ -3366,6 +3366,7 @@ Attaching package: &#39;janitor&#39;</code></pre>
 1     2</code></pre>
 </div>
 </div>
+<p>The <strong>Leap Frog Highball</strong> contains 2 of gin</p>
 </section>
 <section id="exercise-3" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-3">Exercise 3</h3>
@@ -3413,12 +3414,13 @@ Attaching package: &#39;janitor&#39;</code></pre>
 <pre><code>[1] &quot;cranberry juice&quot;</code></pre>
 </div>
 </div>
+<p>On average the most used ingredient in the Boston Cocktails dataset is cranberry juice.</p>
 </section>
 <section id="exercise-5" class="level3">
 <h3 class="anchored" data-anchor-id="exercise-5">Exercise 5</h3>
-<p>Describe describe the drinks represented by PC1?</p>
+<p>Describe the drinks represented by PC1?</p>
 <ol type="1">
-<li><p>If a data point falls within the range of 0 to 0.25 and has a positive influence on PC1, it means that when data points are in this range, they tend to increase the value of PC1.</p></li>
+<li><p>If a data point falls within the range of 0 to 0.25 and positively influences PC1, it means that when data points are in this range, they tend to increase the value of PC1.</p></li>
 <li><p>When the measure number is between 0 and -0.7 and it has a negative effect on PC1, it suggests that data points in this range tend to decrease the value of PC1.</p></li>
 <li><p>If the ingredient number falls within the range of 0 to 0.7 and has a positive impact on PC1, it implies that data points in this range tend to boost the value of PC1.</p></li>
 </ol>
@@ -3506,20 +3508,20 @@ Attaching package: &#39;janitor&#39;</code></pre>
 <span id="cb23-40"><a href="#cb23-40" aria-hidden="true" tabindex="-1"></a>table_pca_ingredients</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 
-<div id="nuylcxhall" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#nuylcxhall table {
+<div id="dqcaxxkbip" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#dqcaxxkbip table {
 font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
 }
-#nuylcxhall thead, #nuylcxhall tbody, #nuylcxhall tfoot, #nuylcxhall tr, #nuylcxhall td, #nuylcxhall th {
+#dqcaxxkbip thead, #dqcaxxkbip tbody, #dqcaxxkbip tfoot, #dqcaxxkbip tr, #dqcaxxkbip td, #dqcaxxkbip th {
 border-style: none;
 }
-#nuylcxhall p {
+#dqcaxxkbip p {
 margin: 0;
 padding: 0;
 }
-#nuylcxhall .gt_table {
+#dqcaxxkbip .gt_table {
 display: table;
 border-collapse: collapse;
 line-height: normal;
@@ -3544,11 +3546,11 @@ border-left-style: none;
 border-left-width: 2px;
 border-left-color: #D3D3D3;
 }
-#nuylcxhall .gt_caption {
+#dqcaxxkbip .gt_caption {
 padding-top: 4px;
 padding-bottom: 4px;
 }
-#nuylcxhall .gt_title {
+#dqcaxxkbip .gt_title {
 color: #333333;
 font-size: 125%;
 font-weight: initial;
@@ -3559,7 +3561,7 @@ padding-right: 5px;
 border-bottom-color: #FFFFFF;
 border-bottom-width: 0;
 }
-#nuylcxhall .gt_subtitle {
+#dqcaxxkbip .gt_subtitle {
 color: #333333;
 font-size: 85%;
 font-weight: initial;
@@ -3570,7 +3572,7 @@ padding-right: 5px;
 border-top-color: #FFFFFF;
 border-top-width: 0;
 }
-#nuylcxhall .gt_heading {
+#dqcaxxkbip .gt_heading {
 background-color: #FFFFFF;
 text-align: center;
 border-bottom-color: #FFFFFF;
@@ -3581,12 +3583,12 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#nuylcxhall .gt_bottom_border {
+#dqcaxxkbip .gt_bottom_border {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#nuylcxhall .gt_col_headings {
+#dqcaxxkbip .gt_col_headings {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3600,7 +3602,7 @@ border-right-style: none;
 border-right-width: 1px;
 border-right-color: #D3D3D3;
 }
-#nuylcxhall .gt_col_heading {
+#dqcaxxkbip .gt_col_heading {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3619,7 +3621,7 @@ padding-left: 5px;
 padding-right: 5px;
 overflow-x: hidden;
 }
-#nuylcxhall .gt_column_spanner_outer {
+#dqcaxxkbip .gt_column_spanner_outer {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3630,13 +3632,13 @@ padding-bottom: 0;
 padding-left: 4px;
 padding-right: 4px;
 }
-#nuylcxhall .gt_column_spanner_outer:first-child {
+#dqcaxxkbip .gt_column_spanner_outer:first-child {
 padding-left: 0;
 }
-#nuylcxhall .gt_column_spanner_outer:last-child {
+#dqcaxxkbip .gt_column_spanner_outer:last-child {
 padding-right: 0;
 }
-#nuylcxhall .gt_column_spanner {
+#dqcaxxkbip .gt_column_spanner {
 border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
@@ -3647,10 +3649,10 @@ overflow-x: hidden;
 display: inline-block;
 width: 100%;
 }
-#nuylcxhall .gt_spanner_row {
+#dqcaxxkbip .gt_spanner_row {
 border-bottom-style: hidden;
 }
-#nuylcxhall .gt_group_heading {
+#dqcaxxkbip .gt_group_heading {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3675,7 +3677,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 text-align: left;
 }
-#nuylcxhall .gt_empty_group_heading {
+#dqcaxxkbip .gt_empty_group_heading {
 padding: 0.5px;
 color: #333333;
 background-color: #FFFFFF;
@@ -3689,13 +3691,13 @@ border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 vertical-align: middle;
 }
-#nuylcxhall .gt_from_md > :first-child {
+#dqcaxxkbip .gt_from_md > :first-child {
 margin-top: 0;
 }
-#nuylcxhall .gt_from_md > :last-child {
+#dqcaxxkbip .gt_from_md > :last-child {
 margin-bottom: 0;
 }
-#nuylcxhall .gt_row {
+#dqcaxxkbip .gt_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3713,7 +3715,7 @@ border-right-color: #D3D3D3;
 vertical-align: middle;
 overflow-x: hidden;
 }
-#nuylcxhall .gt_stub {
+#dqcaxxkbip .gt_stub {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3725,7 +3727,7 @@ border-right-color: #D3D3D3;
 padding-left: 5px;
 padding-right: 5px;
 }
-#nuylcxhall .gt_stub_row_group {
+#dqcaxxkbip .gt_stub_row_group {
 color: #333333;
 background-color: #FFFFFF;
 font-size: 100%;
@@ -3738,13 +3740,13 @@ padding-left: 5px;
 padding-right: 5px;
 vertical-align: top;
 }
-#nuylcxhall .gt_row_group_first td {
+#dqcaxxkbip .gt_row_group_first td {
 border-top-width: 2px;
 }
-#nuylcxhall .gt_row_group_first th {
+#dqcaxxkbip .gt_row_group_first th {
 border-top-width: 2px;
 }
-#nuylcxhall .gt_summary_row {
+#dqcaxxkbip .gt_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3753,14 +3755,14 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#nuylcxhall .gt_first_summary_row {
+#dqcaxxkbip .gt_first_summary_row {
 border-top-style: solid;
 border-top-color: #D3D3D3;
 }
-#nuylcxhall .gt_first_summary_row.thick {
+#dqcaxxkbip .gt_first_summary_row.thick {
 border-top-width: 2px;
 }
-#nuylcxhall .gt_last_summary_row {
+#dqcaxxkbip .gt_last_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3769,7 +3771,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#nuylcxhall .gt_grand_summary_row {
+#dqcaxxkbip .gt_grand_summary_row {
 color: #333333;
 background-color: #FFFFFF;
 text-transform: inherit;
@@ -3778,7 +3780,7 @@ padding-bottom: 8px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#nuylcxhall .gt_first_grand_summary_row {
+#dqcaxxkbip .gt_first_grand_summary_row {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3787,7 +3789,7 @@ border-top-style: double;
 border-top-width: 6px;
 border-top-color: #D3D3D3;
 }
-#nuylcxhall .gt_last_grand_summary_row_top {
+#dqcaxxkbip .gt_last_grand_summary_row_top {
 padding-top: 8px;
 padding-bottom: 8px;
 padding-left: 5px;
@@ -3796,10 +3798,10 @@ border-bottom-style: double;
 border-bottom-width: 6px;
 border-bottom-color: #D3D3D3;
 }
-#nuylcxhall .gt_striped {
+#dqcaxxkbip .gt_striped {
 background-color: rgba(128, 128, 128, 0.05);
 }
-#nuylcxhall .gt_table_body {
+#dqcaxxkbip .gt_table_body {
 border-top-style: solid;
 border-top-width: 2px;
 border-top-color: #D3D3D3;
@@ -3807,7 +3809,7 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 border-bottom-color: #D3D3D3;
 }
-#nuylcxhall .gt_footnotes {
+#dqcaxxkbip .gt_footnotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3820,7 +3822,7 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#nuylcxhall .gt_footnote {
+#dqcaxxkbip .gt_footnote {
 margin: 0px;
 font-size: 90%;
 padding-top: 4px;
@@ -3828,7 +3830,7 @@ padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#nuylcxhall .gt_sourcenotes {
+#dqcaxxkbip .gt_sourcenotes {
 color: #333333;
 background-color: #FFFFFF;
 border-bottom-style: none;
@@ -3841,57 +3843,57 @@ border-right-style: none;
 border-right-width: 2px;
 border-right-color: #D3D3D3;
 }
-#nuylcxhall .gt_sourcenote {
+#dqcaxxkbip .gt_sourcenote {
 font-size: 90%;
 padding-top: 4px;
 padding-bottom: 4px;
 padding-left: 5px;
 padding-right: 5px;
 }
-#nuylcxhall .gt_left {
+#dqcaxxkbip .gt_left {
 text-align: left;
 }
-#nuylcxhall .gt_center {
+#dqcaxxkbip .gt_center {
 text-align: center;
 }
-#nuylcxhall .gt_right {
+#dqcaxxkbip .gt_right {
 text-align: right;
 font-variant-numeric: tabular-nums;
 }
-#nuylcxhall .gt_font_normal {
+#dqcaxxkbip .gt_font_normal {
 font-weight: normal;
 }
-#nuylcxhall .gt_font_bold {
+#dqcaxxkbip .gt_font_bold {
 font-weight: bold;
 }
-#nuylcxhall .gt_font_italic {
+#dqcaxxkbip .gt_font_italic {
 font-style: italic;
 }
-#nuylcxhall .gt_super {
+#dqcaxxkbip .gt_super {
 font-size: 65%;
 }
-#nuylcxhall .gt_footnote_marks {
+#dqcaxxkbip .gt_footnote_marks {
 font-size: 75%;
 vertical-align: 0.4em;
 position: initial;
 }
-#nuylcxhall .gt_asterisk {
+#dqcaxxkbip .gt_asterisk {
 font-size: 100%;
 vertical-align: 0;
 }
-#nuylcxhall .gt_indent_1 {
+#dqcaxxkbip .gt_indent_1 {
 text-indent: 5px;
 }
-#nuylcxhall .gt_indent_2 {
+#dqcaxxkbip .gt_indent_2 {
 text-indent: 10px;
 }
-#nuylcxhall .gt_indent_3 {
+#dqcaxxkbip .gt_indent_3 {
 text-indent: 15px;
 }
-#nuylcxhall .gt_indent_4 {
+#dqcaxxkbip .gt_indent_4 {
 text-indent: 20px;
 }
-#nuylcxhall .gt_indent_5 {
+#dqcaxxkbip .gt_indent_5 {
 text-indent: 25px;
 }
 </style>
@@ -3996,22 +3998,22 @@ text-indent: 25px;
 <pre><code># A tibble: 1 × 4
   terms         value component id       
   &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;    
-1 all_numeric()    NA &lt;NA&gt;      pca_MHxyY</code></pre>
+1 all_numeric()    NA &lt;NA&gt;      pca_vn6Xg</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">tidy</span>(pca_estimates, <span class="at">number =</span> <span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code># A tibble: 9 × 4
   terms                value component id       
   &lt;chr&gt;                &lt;dbl&gt; &lt;chr&gt;     &lt;chr&gt;    
-1 row_id             0.185   PC1       pca_MHxyY
-2 ingredient_number  0.706   PC1       pca_MHxyY
-3 measure_number    -0.683   PC1       pca_MHxyY
-4 row_id            -0.967   PC2       pca_MHxyY
-5 ingredient_number  0.00852 PC2       pca_MHxyY
-6 measure_number    -0.254   PC2       pca_MHxyY
-7 row_id             0.173   PC3       pca_MHxyY
-8 ingredient_number -0.708   PC3       pca_MHxyY
-9 measure_number    -0.685   PC3       pca_MHxyY</code></pre>
+1 row_id             0.185   PC1       pca_vn6Xg
+2 ingredient_number  0.706   PC1       pca_vn6Xg
+3 measure_number    -0.683   PC1       pca_vn6Xg
+4 row_id            -0.967   PC2       pca_vn6Xg
+5 ingredient_number  0.00852 PC2       pca_vn6Xg
+6 measure_number    -0.254   PC2       pca_vn6Xg
+7 row_id             0.173   PC3       pca_vn6Xg
+8 ingredient_number -0.708   PC3       pca_vn6Xg
+9 measure_number    -0.685   PC3       pca_vn6Xg</code></pre>
 </div>
 <div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the scatter plot of PC1 and PC2 with labels</span></span>
 <span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(pca_data, <span class="fu">aes</span>(PC1, PC2, <span class="at">label =</span> name)) <span class="sc">+</span></span>

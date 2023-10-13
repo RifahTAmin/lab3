@@ -16,7 +16,7 @@ Load packages and data:
 #| message: false
 # install.packages("skimr") #
 # install.packages("janitor") #
-# install.packages("tidymodels") #
+# install.packages("tidymodels")#
 
 boston_cocktails <- readr::read_csv('data/boston_cocktails.csv')
 ```
@@ -48,11 +48,9 @@ median_measure_number <- median(boston_cocktails$measure_number)
 print(median_measure_number)
 ```
 
-The median measure amount across across all cocktails is 1.
+The median measure amount across all cocktails is 1.
 
 ### Exercise 2
-
-The **Leap Frog Highball** contains \_\_\_ of gin
 
 ```{r}
 
